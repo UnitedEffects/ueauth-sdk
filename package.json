@@ -35,8 +35,12 @@
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "homepage": "https://ueauth.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UnitedEffects/ueauth-sdk"
+  },
   "bugs": {
-    "url": "https://github.com/UnitedEffects/ueauth/issues",
+    "url": "https://github.com/UnitedEffects/ueauth-sdk/issues",
     "email": "help@unitedeffects.com"
   },
   "scripts": {
