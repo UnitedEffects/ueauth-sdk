@@ -1,5 +1,5 @@
 {
-  "name": "ueauth-sdk",
+  "name": "@ue/auth",
   "version": "1.32.7",
   "description": "OpenAPI client SDK for UE Auth by United Effects.",
   "author": "United Effects LLC",
