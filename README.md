@@ -10,12 +10,12 @@ The full API can be viewed in the UE documents site: https://docs.unitedeffects.
 
 Example is with yarn but you could use npm. All APIs are provided as classes.
 ```
-yarn i @ue/auth
+yarn i @unitedeffects/auth
 ```
 
 ```javascript
 // Example for SystemApi with basic JavaScript
-const { SystemApi } = require('@ue/auth');
+const { SystemApi } = require('@unitedeffects/auth');
 const sys = new SystemApi();
 
 sys.apiHealthGet()
@@ -25,7 +25,7 @@ sys.apiHealthGet()
 
 ```javascript
 // Example for SystemApi with import and async/await
-import { SystemApi } from '@ue/auth';
+import { SystemApi } from '@unitedeffects/auth';
 const sys = new SystemApi();
 
 async function example() {
