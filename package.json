@@ -1,0 +1,54 @@
+{
+  "name": "ueauth-sdk",
+  "version": "1.32.7",
+  "description": "OpenAPI client SDK for UE Auth by United Effects.",
+  "author": "United Effects LLC",
+  "person": {
+    "name": "UE Team",
+    "email": "help@unitedeffects.com",
+    "url": "https://unitedeffects.com"
+  },
+  "keywords": [
+    "axios",
+    "typescript",
+    "ueauth",
+    "auth",
+    "oidc",
+    "sso",
+    "mfa",
+    "permissions",
+    "identity",
+    "access",
+    "authentication",
+    "authorization",
+    "enterprise",
+    "b2b",
+    "b2c",
+    "login",
+    "organization",
+    "user management",
+    "permissions managment",
+    "roles",
+    "product access"
+  ],
+  "license": "MIT",
+  "private": false,
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "homepage": "https://ueauth.com",
+  "bugs": {
+    "url": "https://github.com/UnitedEffects/ueauth/issues",
+    "email": "help@unitedeffects.com"
+  },
+  "scripts": {
+    "build": "tsc --outDir dist/",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.5",
+    "typescript": "^3.6.4"
+  }
+}
